@@ -1,1 +1,18 @@
-    
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1A2B 猜數字遊戲</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>1A2B 猜數字遊戲</h1>
+    <p>請輸入四位不重複的數字：</p>
+    <input type="text" id="guessInput" maxlength="4">
+    <button onclick="submitGuess()">猜這個</button>
+    <button onclick="resetGame()">重新開始</button> 
+    <p id="result"></p>
+    <script src="script.js"></script>
+</body>
+</html>
